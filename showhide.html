@@ -1,0 +1,24 @@
+<head>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script>
+        $(document).ready(function(){
+
+            $("#btn_toggle").click(function(){
+                $(".divClass").toggle();
+            });
+
+            $("#btn_toggle_effect").click(function(){
+                $(".divClass").toggle(500);
+            });
+
+        });
+    </script>
+</head>
+<body>
+    <div class="divClass" style="border:5px solid;">
+        <p>This div can be hidden or shown by toggling its state.</p>
+    </div>
+    <button id="btn_toggle">Hide or show div</button>
+    <br>
+    <button id="btn_toggle_effect">Hide or show div with delay</button>
+</body>
