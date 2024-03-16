@@ -1,5 +1,5 @@
 # jQuery Exercises
-
+## For convenience, the JS code was written inside each html page.
 This repository contains exercises done on jQuery, covering various topics such as:
 
 - jQuery Syntax
